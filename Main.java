@@ -41,7 +41,7 @@ public class Main {
         float totalVolume=volume1+volume2+volume3+volume4+volume5+volume6+volume7+volume8+volume9+volume10+volume11+volume12;
         float waterUsage=37640f*28f*.246f;
         float avgWaterSaved=(waterUsage-totalVolume)/37640f/28f;       
-        System.out.println("Each person need to save"+" "+avgWaterSaved+" "+"M^3 of water a day.");
+        System.out.println("Each person need to save"+" "+avgWaterSaved+" "+"m^3 of water a day.");
 
     }
 }
